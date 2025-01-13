@@ -1,0 +1,49 @@
+.table {
+  margin-top: 100px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 990px;
+  font-size: 20px;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+.table_header {
+  background-color: #353333;
+  color: white;
+  font-size: 28px;
+  padding: 10px auto;
+}
+tr {
+  border: 1px solid black;
+}
+tr:nth-child(even) {
+  background-color: #d7d5d5;
+}
+th {
+  border: 1px solid black;
+  height: 50px;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+td {
+  border: 1px solid black;
+  font-size: 28px;
+  width: 300px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.typeName {
+  text-align: left;
+  padding-left: 100px;
+  /* letter-spacing: 1px; */
+  color: black;
+}
+.amount {
+  text-align: center;
+  color: black;
+}
+.currency {
+  text-align: center;
+  color: black;
+}
